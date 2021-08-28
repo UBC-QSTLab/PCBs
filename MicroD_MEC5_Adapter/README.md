@@ -4,6 +4,13 @@ This PCB is designed to allow us to use the DC sample holder from the fridge in 
 
 ![](img/Layout_Both.png)
 
+## General Notes
+
+* The numbers near the card edge are the card edge pin numbering which is NOT the same as the breakout box pin numbering
+    * However the board is routed so the sample (or Micro-D) pin numbers match the breakout box
+* The partially exposed copper "ground" plane is connected to pins 1, 3, 5, 7, 9, 51, 53, 55, 57, 59 of the card edge connector which should be grounded
+* The pins of the Micro-D connector should be cut to be flush with the bottom of the PCB, soldered, and then wrapped in Teflon tape so they don't get shorted by the metal block in the dipstick
+
 ## Ordering Information
 
 | Parameter                           | Value                        | Notes |
