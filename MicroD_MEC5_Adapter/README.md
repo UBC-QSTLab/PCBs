@@ -4,6 +4,22 @@ This PCB is designed to allow us to use the DC sample holder from the fridge in 
 
 ![](img/Layout_Both.png)
 
+## Ordering Information
+
+| Parameter                           | Value                        | Notes |
+| ----------------------------------- | ---------------------------- | ----- |
+| Gold fingers                        | Yes                          | |
+| Gold finger surface finish          | Hard Gold (Au:10U"/Ni:120U") | Hard Gold allows for more insertion cycles into a card edge connector |
+| Gold finger bevel edge              | 30 deg                       | Bevel makes insertion easier, this is a pretty standard value |
+| Gold finger bevel hypotenuse length | 0.9 mm                       | This value was recommended by PCBgogo |
+| Pad surface finish                  | ENIG                         | |
+
+## BOM
+
+| Part Number | Manufacturer | Description | Notes |
+| ----------- | ------------ | ----------- | ----- |
+| [581-M25-213L461](https://www.digikey.ca/en/products/detail/norcomp-inc/581-M25-213L461/13557502) | NorComp Inc. | Female (Receptacle) Micro-D Connector | |
+
 ## Pin Mapping (Summary)
 
 All the pin numbers stay the same except for 13 and 16 which map to 33 and 36 respectively.
